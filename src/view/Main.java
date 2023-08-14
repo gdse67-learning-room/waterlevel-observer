@@ -16,6 +16,9 @@ public class Main {
         NoticeBoardWindow nw = new NoticeBoardWindow();
         
         ControllerRoom cr = new ControllerRoom();
+        cr.nw = nw;
+        
+        MainWindow mainWindow = new MainWindow(cr);
         
         
     }
