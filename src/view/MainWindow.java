@@ -18,6 +18,10 @@ public class MainWindow extends javax.swing.JFrame {
     public MainWindow() {
         initComponents();
     }
+    
+    public MainWindow(ControllerRoom cr) {
+        this.cr = cr;
+    }
 
     /**
      * This method is called from within the constructor to initialize the form.
